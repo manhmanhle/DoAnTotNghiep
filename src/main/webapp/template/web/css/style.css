@@ -1,0 +1,151 @@
+/* reset css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: white;
+}
+
+/* title  */
+#header {
+    background-color: #007f49;
+}
+#title {
+    background-color: rgb(61, 60, 60);
+}
+#title p {
+    padding: 10px 0px 20px 0px;
+    font-size: 14px;
+}
+#title span {
+    opacity: 0.7;
+}
+#header div:nth-child(2) {
+    width: 1200px;
+    margin: 0px auto;
+}
+#logo {
+    padding-top: 20px;
+}
+#logo img {
+    width: 150px;
+}
+/* #menu {
+    display: flex;
+    flex-wrap: wrap;
+} */
+#menu li {
+    display: inline-block;
+    /* min-width: 150px; */
+    padding: 10px;
+    position: relative;
+}
+#menu li:hover {
+    background-color: rgb(162, 170, 162);
+    
+}
+#menu li:hover a {
+    color: black;
+}
+#menu li a {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+#menu li:hover #submenu {
+    display: block;
+}
+#submenu{
+    width: 100%;
+}
+#submenu li {
+    display: block;
+}
+#submenu a {
+    color: black !important;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgb(117, 112, 112);
+}
+#admin p  {
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    width: 200px;
+    margin-left: 1000px;
+    text-align: center;
+    padding:20px 0px 40px 0px;
+    opacity: 0.7;
+}
+/* content  */
+#content > div {
+    width: 1200px;
+    margin: 0px auto;
+}
+#content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+#form {
+    display: flex;
+    margin-bottom: 50px;
+}
+#form > div {
+    width: 30%;
+    justify-content: space-between;
+}
+#form > div:last-child {
+    display: flex;
+}
+#form > div:last-child > div {
+    width: 30%; 
+    position: relative;
+}
+label {
+    display: block;
+    font-size: 18px;
+}
+select {
+    width: 90%;
+    background-color: transparent;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+button {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* footer  */
+#footer {
+    background-color: #007f49;
+}
+#footer div {
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footer h3 {
+    padding-bottom: 10px;
+}
